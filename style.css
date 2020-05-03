@@ -1,5 +1,5 @@
 .bg-red {
-  background-color: #F72210;
+  background-color: #f72210;
 }
 
 .navbar-brand svg {
@@ -8,8 +8,6 @@
   width: 132px;
   height: 20px;
 }
-
-
 
 .uppercase {
   text-transform: uppercase;
