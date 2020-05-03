@@ -1,0 +1,16 @@
+.bg-red {
+  background-color: #F72210;
+}
+
+.navbar-brand svg {
+  fill: white;
+  display: block;
+  width: 132px;
+  height: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+}
