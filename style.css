@@ -9,8 +9,17 @@
   height: 20px;
 }
 
+
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 600px) {
-
-
-
+  .navbar-member {
+    display: flex;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: center;  
+  }
 }
