@@ -13,6 +13,16 @@
   text-transform: uppercase;
 }
 
+.navbar-toggle .icon-bar {
+  width: 50px !important;
+  height: 3px !important;
+}
+
+.navbar-toggler-icon {
+  width: 10px;
+  height: 10px;
+}
+
 @media only screen and (max-width: 600px) {
   .navbar-member {
     display: flex;
