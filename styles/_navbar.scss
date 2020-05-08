@@ -1,46 +1,76 @@
 $redBg: #f72210;
 
 .navbar-brand svg {
-    fill: white;
-    display: block;
-    width: 132px;
-    height: 20px;
+  fill: white;
+  display: block;
+  width: 132px;
+  height: 20px;
+}
+
+.navbar-toggle .icon-bar {
+  width: 50px !important;
+  height: 3px !important;
+}
+
+.navbar-toggler-icon {
+  width: 10px;
+  height: 10px;
+}
+
+.navbar-toggler {
+  border: none;
+  display: block;
+  background: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    padding: 1rem !important;
   }
-  
-  .navbar-toggle .icon-bar {
-    width: 50px !important;
-    height: 3px !important;
-  }
-  
-  .navbar-toggler-icon {
-    width: 10px;
-    height: 10px;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .navbar {
-      padding: 1rem !important;
+
+  .navbar-member {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      cursor: pointer;
     }
-  
-    .navbar-member {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  
-      a {
-        cursor: pointer;
-      }
-  
-      a:first-child {
-        color: #fff;
-        margin: 0 5px;
-      }
-    }
-  
-    .subscribe {
-      background-color: #fff;
-      color: $redBg;
-      padding: 2px 3px;
+
+    a:first-child {
+      color: #fff;
       margin: 0 5px;
     }
   }
+
+  .subscribe {
+    background-color: #fff;
+    color: $redBg;
+    padding: 6px 3px;
+    margin: 0 5px;
+    line-height: 0.9;
+  }
+
+  .subscribe svg {
+    width: 8px;
+    fill: #f72210;
+    margin-left: 7px;
+  }
+
+  .icon-menu {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .icon-menu span,
+  .icon-menu::before,
+  .icon-menu::after {
+    content: "";
+    display: block;
+    height: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background-color: #fb9a94;
+    width: 26px;
+  }
+}
