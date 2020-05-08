@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap");
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+}
+
+header {
+  background-color: #f72210;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
@@ -44,6 +56,9 @@ h1 {
         -ms-flex-align: center;
             align-items: center;
   }
+  .navbar-member a {
+    cursor: pointer;
+  }
   .navbar-member a:first-child {
     color: #fff;
     margin: 0 5px;
@@ -51,7 +66,7 @@ h1 {
   .subscribe {
     background-color: #fff;
     color: #f72210;
-    padding: 6px 3px;
+    padding: 2px 3px;
     margin: 0 5px;
   }
 }
