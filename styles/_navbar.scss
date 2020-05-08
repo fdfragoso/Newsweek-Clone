@@ -1,0 +1,46 @@
+$redBg: #f72210;
+
+.navbar-brand svg {
+    fill: white;
+    display: block;
+    width: 132px;
+    height: 20px;
+  }
+  
+  .navbar-toggle .icon-bar {
+    width: 50px !important;
+    height: 3px !important;
+  }
+  
+  .navbar-toggler-icon {
+    width: 10px;
+    height: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      padding: 1rem !important;
+    }
+  
+    .navbar-member {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      a {
+        cursor: pointer;
+      }
+  
+      a:first-child {
+        color: #fff;
+        margin: 0 5px;
+      }
+    }
+  
+    .subscribe {
+      background-color: #fff;
+      color: $redBg;
+      padding: 2px 3px;
+      margin: 0 5px;
+    }
+  }

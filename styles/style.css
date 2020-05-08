@@ -4,20 +4,10 @@ body {
   font-size: 14px;
 }
 
-header {
-  background-color: #f72210;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
   color: red;
-}
-
-.bg-red {
-  background-color: #f72210;
 }
 
 .navbar-brand svg {
@@ -25,10 +15,6 @@ h1 {
   display: block;
   width: 132px;
   height: 20px;
-}
-
-.uppercase {
-  text-transform: uppercase;
 }
 
 .navbar-toggle .icon-bar {
@@ -69,5 +55,11 @@ h1 {
     padding: 2px 3px;
     margin: 0 5px;
   }
+}
+
+header {
+  background-color: #f72210;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
