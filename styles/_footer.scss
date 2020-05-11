@@ -1,3 +1,17 @@
+@import "./variables";
+
+.footer-logo {
+  width: 236px;
+}
+
+.footer-logo svg {
+  fill: $redBg;
+}
+
+.pb-1, .py-1 {
+  
+}
+
 .genericon {
   display: inline-block;
   color: #666;

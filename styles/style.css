@@ -87,6 +87,14 @@ h1 {
   }
 }
 
+.footer-logo {
+  width: 236px;
+}
+
+.footer-logo svg {
+  fill: #f72210;
+}
+
 .genericon {
   display: inline-block;
   color: #666;
