@@ -6,7 +6,6 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  line-height: 1.5;
 }
 
 h1 {
@@ -38,14 +37,14 @@ h1 {
 
   main > div > section {
     background-color: #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     border-bottom: 1px solid #e2e2e2;
   }
 
   main > div > section,
   .featured-stories-div section > div {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .section-title {
@@ -53,5 +52,75 @@ h1 {
     text-transform: uppercase;
     color: #03030366;
     font-weight: 700;
+  }
+
+  .section-top {
+    position: relative;
+  }
+
+  img {
+    display: block;
+    border: 0;
+  }
+
+  article img {
+    width: 100%;
+  }
+
+  img:not(.initial) {
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+
+  img.initial,
+  img.loaded,
+  img.error {
+    opacity: 1;
+  }
+
+  img:not([src]) {
+    visibility: hidden;
+  }
+
+  a {
+    color: black;
+  }
+
+  .category {
+    position: absolute;
+    bottom: 0;
+    padding: 7px 17px;
+    background-color: #ffffffe6;
+    color: black;
+  }
+
+  .category-title {
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #f72210;
+    text-transform: uppercase;
+  }
+
+  .section-headline a:hover {
+    text-decoration: underline #f72210;
+  }
+
+  .section-headline h2 {
+    margin-top: 15px;
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .sumary-paragraph {
+    font-size: 0.79rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0.7rem;
   }
 }
