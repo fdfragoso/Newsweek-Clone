@@ -321,6 +321,22 @@ a {
     border-bottom: 4px solid #1c87fb;
     padding-bottom: 12px;
   }
+  .debate-author-text a h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 15px;
+  }
+  .debate-author-text p {
+    color: black;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-left: 15px;
+  }
+  .debate-author-text p a {
+    font-weight: 700;
+  }
   .debate .vs-div {
     position: relative;
   }
@@ -350,7 +366,6 @@ a {
     border-radius: 50%;
     font: bold 14px/32px "Roboto Condensed", sans-serif;
     text-align: center;
-    margin: 6px auto;
   }
 }
 
