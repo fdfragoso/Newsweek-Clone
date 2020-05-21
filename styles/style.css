@@ -312,6 +312,15 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+  .c-r {
+    border-top: 4px solid #f92859;
+    padding-top: 10px;
+    padding-bottom: 4px;
+  }
+  .c-b {
+    border-bottom: 4px solid #1c87fb;
+    padding-bottom: 12px;
+  }
   .debate .vs-div {
     position: relative;
   }
