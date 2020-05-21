@@ -1,0 +1,39 @@
+@import "./variables";
+
+@media only screen and (max-width: 600px) {
+  .debate .vs-div {
+    position: relative;
+  }
+
+  .debate .vs-div::before {
+    top: calc(50% - 2px);
+  }
+
+  .debate .vs-div::after {
+    top: 50%;
+  }
+
+  .debate .vs-div::after,
+  .debate .vs-div::before {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .debate .c-vs {
+    position: relative;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    color: #d6d6d6;
+    border-radius: 50%;
+    font: bold 14px/32px "Roboto Condensed", sans-serif;
+    text-align: center;
+    margin: 6px auto;
+  }
+}
