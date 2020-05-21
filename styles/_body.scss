@@ -129,4 +129,23 @@ h1 {
     margin-top: 0;
     margin-bottom: 0.7rem;
   }
+
+  .opinion-div article {
+    height: -moz-fit-content;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .opinion-article-text p {
+    text-transform: uppercase;
+    color: #555;
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  .opinion-article-text *,
+  .bottom-menu * {
+    font-size: 1rem;
+    font-weight: 700;
+  }
 }
