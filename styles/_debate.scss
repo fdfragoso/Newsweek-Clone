@@ -2,13 +2,13 @@
 
 @media only screen and (max-width: 600px) {
   .c-r {
-    border-top: 4px solid #f92859;
+    border-top: 4px solid $redText;
     padding-top: 10px;
     padding-bottom: 4px;
   }
 
   .c-b {
-    border-bottom: 4px solid #1c87fb;
+    border-bottom: 4px solid $blueBar;
     padding-bottom: 12px;
   }
 
