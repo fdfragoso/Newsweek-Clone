@@ -3,18 +3,125 @@
 .navbar-brand svg {
   fill: white;
   display: block;
-  width: 132px;
-  height: 20px;
 }
 
-.navbar-toggle .icon-bar {
-  width: 50px !important;
-  height: 3px !important;
+.weather-widget {
+  color: white;
+  font: 15px/34px "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
 }
 
-.navbar-toggler-icon {
-  width: 10px;
-  height: 10px;
+.first-article-image-content {
+  position: relative;
+}
+
+.date {
+  font-weight: 400;
+}
+
+.country-name::after {
+  width: 11px;
+  height: 12px;
+  margin-left: 6px;
+}
+
+.navbar-right {
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+}
+
+.navbar-right > a {
+  font-size: 14px;
+}
+
+.magazine-article div a {
+  color: #f72210;
+}
+
+.more-stories-div a:hover,
+.culture-title:hover,
+.text-underline:hover {
+  color: black;
+}
+
+.navbar-right > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-right a:first-child {
+  color: #fff;
+}
+
+.section-headline a:hover {
+  -webkit-text-decoration: underline #f72210;
+  text-decoration: underline #f72210;
+}
+
+.font-size-20 {
+  font-size: 20px !important;
+}
+
+.opinion-article-text a:hover,
+.font-size-20:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.more-stories-div a:hover {
+  -webkit-text-decoration: underline #f72210;
+  text-decoration: underline #f72210;
+}
+
+.footer-editions .menu a,
+.footer-editions .second-div a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 3px 20px 3px 0;
+  display: inline-block;
+  color: #666;
+}
+
+.navbar-right > a:last-child:hover {
+  color: #f72210;
+}
+
+.brand svg {
+  width: 131px;
+  fill: #fff;
+}
+
+.subscribe {
+  background: #fff;
+  color: #f72210;
+  margin: 0 5px;
+  padding: 6px 3px;
+  line-height: 0.9;
+}
+
+.subscribe svg {
+  width: 8px;
+  fill: #f72210;
+  margin-left: 7px;
+}
+
+.icon-menu {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.icon-menu span,
+.icon-menu::before,
+.icon-menu::after {
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  background-color: #fb9a94;
+  width: 26px;
 }
 
 .navbar-toggler {
@@ -26,6 +133,23 @@
 @media only screen and (max-width: 600px) {
   .navbar {
     padding: 1rem !important;
+  }
+
+  .navbar-brand svg {
+    fill: white;
+    display: block;
+    width: 132px;
+    height: 20px;
+  }
+
+  .navbar-toggle .icon-bar {
+    width: 50px !important;
+    height: 3px !important;
+  }
+
+  .navbar-toggler-icon {
+    width: 10px;
+    height: 10px;
   }
 
   .navbar-member {

@@ -24,6 +24,13 @@ h1 {
   display: none;
 }
 
+main > div > section {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
 @media only screen and (max-width: 600px) {
   .container-fluid {
     width: 100%;
@@ -48,8 +55,8 @@ h1 {
     border-bottom: 1px solid #e2e2e2;
   }
 
-  main>div>section,
-  .featured-stories-div section>div {
+  main > div > section,
+  .featured-stories-div section > div {
     margin-bottom: 15px;
   }
 
@@ -151,7 +158,7 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  main>div>section {
+  main > div > section {
     border: none;
   }
 
@@ -230,11 +237,11 @@ h1 {
     top: 0;
   }
 
-  .general-categorie article div>article {
+  .general-categorie article div > article {
     padding-top: 10px;
   }
 
-  main>.section-divisor {
+  main > .section-divisor {
     width: 100%;
     margin: 0;
   }
