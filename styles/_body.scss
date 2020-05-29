@@ -41,15 +41,15 @@ h1 {
     margin-left: auto;
   }
 
-  main > div > section {
+  main>div>section {
     background-color: #fff;
     padding-top: 8px;
     padding-bottom: 8px;
     border-bottom: 1px solid #e2e2e2;
   }
 
-  main > div > section,
-  .featured-stories-div section > div {
+  main>div>section,
+  .featured-stories-div section>div {
     margin-bottom: 15px;
   }
 
@@ -151,7 +151,7 @@ h1 {
 }
 
 @media (min-width: 768px) {
-  main > div > section {
+  main>div>section {
     border: none;
   }
 
@@ -230,11 +230,11 @@ h1 {
     top: 0;
   }
 
-  .general-categorie article div > article {
+  .general-categorie article div>article {
     padding-top: 10px;
   }
 
-  main > .section-divisor {
+  main>.section-divisor {
     width: 100%;
     margin: 0;
   }
@@ -282,7 +282,7 @@ h1 {
     padding-bottom: 40px !important;
   }
 
-  .navbar-fixed .brand {
+  .navbar-fixed .navbar-brand {
     order: 0;
     position: unset;
     transform: none;
@@ -292,7 +292,7 @@ h1 {
     display: none !important;
   }
 
-  .navbar-fixed .brand svg {
+  .navbar-fixed .navbar-brand svg {
     width: 131px;
   }
 
@@ -396,14 +396,14 @@ h1 {
     margin-right: 0 !important;
   }
 
-  .brand {
+  .navbar-brand {
     position: absolute;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
   }
 
-  .brand svg {
+  .navbar-brand svg {
     width: 396px;
   }
 

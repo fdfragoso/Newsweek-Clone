@@ -239,7 +239,7 @@ h1 {
     margin-top: -11px;
     padding-bottom: 40px !important;
   }
-  .navbar-fixed .brand {
+  .navbar-fixed .navbar-brand {
     -webkit-box-ordinal-group: 1;
         -ms-flex-order: 0;
             order: 0;
@@ -250,7 +250,7 @@ h1 {
   .navbar-fixed .date {
     display: none !important;
   }
-  .navbar-fixed .brand svg {
+  .navbar-fixed .navbar-brand svg {
     width: 131px;
   }
   .navbar-fixed .weather-container {
@@ -342,13 +342,13 @@ h1 {
   .weather-widget {
     margin-right: 0 !important;
   }
-  .brand {
+  .navbar-brand {
     position: absolute;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
   }
-  .brand svg {
+  .navbar-brand svg {
     width: 396px;
   }
   .first-row .col-lg-3 {
