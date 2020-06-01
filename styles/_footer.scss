@@ -1,11 +1,22 @@
 @import "./variables";
 
+footer {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-top: 1px solid #f4f5f6;
+}
+
 .footer-logo {
   width: 236px;
 }
 
 .footer-logo svg {
-  fill: $redBg;
+  fill: #f72210;
+}
+
+.footer-top {
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .genericon {
@@ -44,54 +55,30 @@
   color: #0077b5;
 }
 
-@media only screen and (max-width: 600px) {
-  footer {
-    background-color: $whiteColor;
-    padding-top: 10px;
-    padding-bottom: 25px;
-    border-top: 1px solid $grayTopBorder;
-  }
-
-  .footer-top {
-    border-bottom: 1px solid $grayBottomBorder;
-  }
-
-  .footer-logo {
-    width: 236px;
-  }
-
-  .footer-bottom {
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .footer-bottom .footer-editions {
-    margin-top: 10px;
-    display: inline-block;
-  }
-
-  .footer-bottom .footer-editions strong {
-    display: inline-block;
-    margin: 0;
-    margin-right: 15px;
-    color: $footerText;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-  .footer-bottom .footer-editions a,
-  .footer-bottom .footer-links a {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    margin: 3px 20px 3px 0;
-    display: inline-block;
-    color: $footerText;
-  }
-
-  .footer-bottom .footer-links {
-    display: inline-block;
-  }
-
-  .footer-icons {
-    justify-content: flex-start;
-  }
+.footer-editions {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.footer-editions .menu {
+  margin-top: 10px;
+}
+
+.footer-editions .menu strong {
+  display: inline-block;
+  margin: 0;
+  margin-right: 15px;
+  color: #666;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-editions .second-div,
+.footer-editions .menu {
+  display: inline-block;
+}
+
+.footer-editions .second-div a:hover,
+.footer-editions .menu a:hover {
+  color: black;
+}
+
