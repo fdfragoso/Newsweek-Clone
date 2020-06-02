@@ -1,0 +1,68 @@
+@import "./variables";
+
+@media only screen and (max-width: 600px) {
+  .c-r {
+    border-top: 4px solid $redText;
+    padding-top: 10px;
+    padding-bottom: 4px;
+  }
+
+  .c-b {
+    border-bottom: 4px solid $blueBar;
+    padding-bottom: 12px;
+  }
+
+  .debate-author-text a h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 15px;
+  }
+
+  .debate-author-text p {
+    color: black;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-left: 15px;
+  }
+
+  .debate-author-text p a {
+    font-weight: 700;
+  }
+
+  .debate .vs-div {
+    position: relative;
+  }
+
+  .debate .vs-div::before {
+    top: calc(50% - 2px);
+  }
+
+  .debate .vs-div::after {
+    top: 50%;
+  }
+
+  .debate .vs-div::after,
+  .debate .vs-div::before {
+    content: "";
+    display: block;
+    background-color: #d9d9d9;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+
+  .debate .c-vs {
+    position: relative;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    color: #d6d6d6;
+    border-radius: 50%;
+    font: bold 14px/32px "Roboto Condensed", sans-serif;
+    text-align: center;
+  }
+}

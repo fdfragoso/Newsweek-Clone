@@ -1,0 +1,19 @@
+@import "./variables";
+
+a {
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .opinion-div article {
+    height: -moz-fit-content;
+    padding-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .opinion-article-img,
+  .debate-author img {
+    height: 63px;
+    width: auto;
+  }
+}
